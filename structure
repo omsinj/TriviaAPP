@@ -1,0 +1,27 @@
+trivia-platform/
+├── backend/
+│   ├── app.js
+│   ├── models/
+│   │   └── User.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── ml.js
+│   │   └── trivia.js
+│   └── server.js
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── components/
+│   │   │   ├── Auth/
+│   │   │   │   └── Login.js
+│   │   │   ├── Leaderboard/
+│   │   │   │   └── Leaderboard.js
+│   │   │   └── Trivia/
+│   │   │       └── TriviaGame.js
+│   │   └── index.js
+├── ml/
+│   ├── model.pkl
+│   └── recommendation.py
+├── .env
+└── package.json
